@@ -2,7 +2,7 @@
 # For more info see: https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-java-with-maven
 #This is the new version 
 #This is the version 2.1
-#This is the new version 2.2
+#This is the new version 2.42
 name: Java CI/CD Pipeline with Maven
 
 on:
