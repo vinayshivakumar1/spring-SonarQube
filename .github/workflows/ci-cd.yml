@@ -38,7 +38,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Spring-PetClinic -Dsonar.projectName='Spring-PetClinic'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=vinay_Kumar1 -Dsonar.projectName='vinay-Kumar'
 
       # This step is optional but shows how you might create an artifact to be used later
       - name: Archive production jar
